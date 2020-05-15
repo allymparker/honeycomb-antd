@@ -40,6 +40,8 @@ module.exports = override(
         '@alert-warning-border-color': '#fed100',
         '@alert-error-border-color': '#cc0000',
 
+        //tooltip
+        '@tooltip-bg': 'black'
       },
     },
   })

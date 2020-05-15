@@ -11,7 +11,7 @@ import {
   Checkbox,
   Alert,
   Layout,
-  Space,Radio
+  Space,Radio, Input, Tooltip
 } from "antd";
 import "./App.css";
 const { Header, Footer, Content } = Layout;
@@ -43,6 +43,11 @@ const App = () => (
             </Form.Item>
             <Form.Item label="开关">
               <Switch defaultChecked />
+            </Form.Item>
+            <Form.Item label="开关">
+              <Tooltip title="so fat" placement="topLeft" overlayStyle="" >
+                <Input value="your mum" />
+              </Tooltip>
             </Form.Item>
             <Form.Item label="滑动输入条">
               <Slider defaultValue={70} />
